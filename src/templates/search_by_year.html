@@ -1,0 +1,11 @@
+$def with (form)
+    <html>
+        <head> Search by Year </head>
+        <body>
+            Query ap_scores database by year to view score distribution by demographic within that year.
+            <form method="post">
+                $:form.render()
+                <input type='submit'/>
+            </form>
+        </body>
+    </html>

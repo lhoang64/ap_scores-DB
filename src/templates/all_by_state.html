@@ -1,0 +1,13 @@
+$def with (records, state, score)
+    <html>
+    <head>Results</head>
+    <body>
+    <h3>Score distribution for all demographics in $state</h3>
+    <h4>Score: $score</h4>
+    $if records:
+        $for record in records:
+            <ul>
+                <li>Demographic: $record['Demographic'], $record['Total number students']</li>
+            </ul>
+    </body>
+    </html>

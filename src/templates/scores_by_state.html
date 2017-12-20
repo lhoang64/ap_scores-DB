@@ -1,0 +1,12 @@
+$def with (records)
+    <html>
+    <head>Results</head>
+    <body>
+    $if records:
+        <h3>State: $records['State']</h3>
+        <h3>Demographic: $records['Demographic']</h3>
+        <h3>Score: $records['Score']</h3>
+        <h3>Total number of students in demographic that got this score: $records['Total number students']</h3>
+        <h3>Total number of students in stat that got this score: $records['Total number of students in state']</h3>
+    </body>
+    </html>

@@ -1,0 +1,11 @@
+$def with (form)
+    <html>
+        <head> Search by State </head>
+        <body>
+            Query ap_scores database by state to view score distribution by demographic within that state.
+            <form method="post">
+                $:form.render()
+                <input type='submit'/>
+            </form>
+        </body>
+    </html>

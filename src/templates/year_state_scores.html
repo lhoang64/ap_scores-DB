@@ -1,0 +1,13 @@
+$def with (record)
+    <html>
+    <head>Results</head>
+    <body>
+    $if record:
+        $for key in record:
+            <h3>Score: $key</h3>
+                $for item in record[key]:
+                    <ul>
+                        <li>$item</li>
+                    </ul>
+    </body>
+    </html>

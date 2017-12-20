@@ -1,0 +1,11 @@
+$def with (record)
+<html>
+    <head></head>
+    <body>
+        <h3>Number of schools offering Computer Science A AP exams from 2008 to 2017</h3>
+        $for key in record:
+            <ul>
+                <li>$key: $record[key]</li>
+            </ul>
+    </body>
+</html>
