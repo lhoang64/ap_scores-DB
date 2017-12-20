@@ -1,4 +1,4 @@
-## Final Project - Computer Science A AP score distribution
+## Computer Science A AP score distribution
 
 College Board publicizes its data on the score distributions for differnet demographics. The original data contained information on all available AP subject exams, however for this project I focused on the CS A exams to look at the data there. The original format of the data was .xlsx files, seperated by state and year. The goal of this project was to aggregate and convert the data from the .xlsx files into one Mongo database.
 
